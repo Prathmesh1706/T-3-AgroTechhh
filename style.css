@@ -1,0 +1,84 @@
+body{  
+    background-color: azure;
+    margin-top: 7px;
+}
+.container{
+    max-width: 600px;
+    margin:0 auto;
+    padding: 50px;
+    box-shadow: rgba(66, 66, 203, 0.2) 0px 7px 29px 0px;
+}
+.signup{
+    
+    max-width: 650px;
+    margin:0 auto;
+    padding: 50px;
+    box-shadow: rgb(0 0 0) 0px 7px 29px 0px;
+    background-color: #9fff9582;
+}
+.login{
+    
+    max-width: 600px;
+    margin:0 auto;
+    padding: 50px;
+    box-shadow: rgb(0 0 0) 0px 7px 29px 0px;
+    background-color: #9fff9582;
+}    
+h1,h3{
+    text-align: center;
+}
+
+.form-all {
+    max-width: 600px; /* Set the maximum width of the form */
+    margin: 50px auto; /* Center the form horizontally with 50px margin from top and bottom */
+    padding: 20px; /* Add padding inside the form */
+    border: 1px solid #808080c2; /* Add a border around the form */
+    border-radius: 20px; /* Add border radius to soften the edges */
+    background-color: rgb(93 241 85 / 40%); /* Set the background color of the form */
+    box-shadow: 0 0 20px rgb(237 90 90 / 9%); /* Add a slight shadow for depth */
+}
+form input{
+    width: 100%;
+    padding: 7px;
+    border: none;
+    border: 1px solid gray;
+    border-radius: 6px;
+    outline: none;
+}
+input[type="submit"]{
+    
+    height: 35px;
+    margin-top: 20px;
+    border: none;
+    background-color: #20971c;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+}
+p{
+    text-align: center;
+    padding-top: 20px;
+    font-size: 16px;
+}
+@media only screen and (max-width: 600px) {
+    .container {
+        padding: 20px;
+    }
+
+    .signup {
+        width: 100%;
+        height: auto;
+    }
+
+    .login {
+        width: 100%;
+        height: auto;
+}
+}
+
+footer {
+    margin-top: auto; /* Push the footer to the bottom of the screen */
+    background-color: rgba(0, 0, 0, 0.05);
+    text-align: center;
+    padding: 1rem;
+}

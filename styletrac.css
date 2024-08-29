@@ -1,0 +1,68 @@
+body{
+    
+    background-color: rgb(107 232 163 / 59%);
+    margin-top:7px;
+}
+
+.bg-very-light-green {
+    background-color: #fff; /* Use your preferred very light green color */
+}
+.navbar {
+    border-bottom: 2px solid #4cafa76e; /* Green border color */
+}
+.bg-dashboard-box{
+    background-color: rgb(197 220 220 / 59%);
+}
+
+h1,h3{
+    text-align: center;
+}
+
+form {
+    padding: 20px; /* Add padding to the form */
+}
+
+form input {
+    width: 100%;
+    padding: 7px;
+    border: 1px solid gray;
+    border-radius: 6px;
+    outline: none;
+}
+input[type="submit"]{
+    
+    height: 35px;
+    margin-top: 20px;
+    border: none;
+    background-color: #20971c;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+}
+p{
+    text-align: center;
+    padding-top: 20px;
+    font-size: 16px;
+}
+@media only screen and (max-width: 600px) {
+    .container {
+        padding: 20px;
+    }
+
+    .signup {
+        width: 100%;
+        height: auto;
+    }
+
+    .login {
+        width: 100%;
+        height: auto;
+}
+}
+
+footer {
+    margin-top: auto; /* Push the footer to the bottom of the screen */
+    background-color: rgba(0, 0, 0, 0.05);
+    text-align: center;
+    padding: 1rem;
+}

@@ -1,0 +1,19 @@
+body{
+    background-color: rgb(172 249 207 / 59%);
+    margin-top:7px;
+}
+
+.bg-very-light-green {
+    background-color: #fff; /* Use your preferred very light green color */
+}
+
+.bg-dashboard-box{
+    background-color: rgb(175 255 200 / 61%);
+    border-radius: 7px;
+}
+footer {
+    margin-top: auto; /* Push the footer to the bottom of the screen */
+    background-color: rgba(0, 0, 0, 0.05);
+    text-align: center;
+    padding: 1rem;
+}

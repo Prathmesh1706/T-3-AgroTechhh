@@ -1,0 +1,78 @@
+body{  
+    background-color: azure;
+    margin-top: 7px;
+}
+
+
+.login{
+    
+    max-width: 600px;
+    margin:0 auto;
+    margin-top: 30px;
+    padding: 50px;
+    box-shadow: rgb(0 0 0) 0px 7px 29px 0px;
+    background-color: #9fff9582;
+}    
+
+
+.form-all {
+    max-width: 600px; /* Set the maximum width of the form */
+    margin: 50px auto; /* Center the form horizontally with 50px margin from top and bottom */
+    padding: 20px; /* Add padding inside the form */
+    border: 1px solid #808080c2; /* Add a border around the form */
+    border-radius: 20px; /* Add border radius to soften the edges */
+    background-color: rgb(93 241 85 / 40%); /* Set the background color of the form */
+    box-shadow: 0 0 20px rgb(237 90 90 / 9%); /* Add a slight shadow for depth */
+}
+form input{
+    width: 100%;
+    padding: 7px;
+    border: none;
+    border: 1px solid gray;
+    border-radius: 6px;
+    outline: none;
+}
+input[type="submit"]{
+    
+    height: 35px;
+    margin-top: 20px;
+    border: none;
+    background-color: #20971c;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+}
+.status-booked{
+     color: red; 
+}
+.status-in-progress{ 
+    color: orange; 
+}
+.status-success{ 
+    color: green; 
+}
+
+@media (max-width: 768px) {
+  /* For screens less than 768px wide */
+  .table {
+    display: block;
+    overflow-x: auto; /* Enable horizontal scrolling */
+  }
+  .table tr {
+    display: flex; /* Make rows behave like flex containers */
+  }
+  .table th,
+  .table td {
+    flex: 1; /* Distribute space equally among cells */
+    padding: 8px; /* Adjust padding as needed */
+  }
+}
+
+
+.table td, .table th {
+    font-size: 15px; /* Adjust as needed */
+}
+    
+
+
+
